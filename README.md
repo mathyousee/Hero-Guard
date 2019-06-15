@@ -4,24 +4,32 @@ For those working in the Common Data Service, it is common to have a "hero" reco
 
 Unintended deletion of a hero record is aggravating and is unfortunately common in demo envirnometns where the demo persona often has an "administrator" security role in order to demonstrate a wide variety of capabilities.
 
-There is not an out of the box way to do this, however it is possible to accomplish with a no-code, configuration-based solution. **Hero Guards** standardizes this solution and enables quick and easy deployment of this protection.
+There is not an out of the box way to do this, however it is possible to accomplish with a no-code, configuration-based solution. **Hero Guards** standardizes this solution and enables quick and easy deployment of this protection for individual records:
+
+- Accounts
+- Contacts
+- Cases
+- Leads
+- Opportunities
+
+The Guard entity can be further conigured to protect other out of the box or configured entities.
 
 ## Usage
 
 This solution is intended for use with the Common Data Service in an environment containing Sales and Service entities from the Common Data Model (dependencies on Lead, Opportunity, and Case entities).
 
-### Installation:
+### Installation
 
 1) Install the managed solution file in your Dynamics 365 instance
 2) Assign the *Hero Protector* Security Role to any user who will create/remove hero Guards
 3) Open the Hero Guard model-driven PowerApp from the app selector
 
-### Assign a Guard to a record:
+### Assign a Guard to a record
 
 1) Select **"New Guard**
 2) Assocaite with at least one record and choose **Save**.
 
-### Remove a Guard:
+### Remove a Guard
 
 1) Open an existing Guard record
 2) Choose **Delete** from the action menu
