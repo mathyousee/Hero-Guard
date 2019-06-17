@@ -1,4 +1,4 @@
-# Hero Guards
+# Hero Guard
 
 For those working in the Common Data Service, it is common to have a "hero" record which is a curated example shown in demonstrations. Hero Guards may be associated with these key records to protect them from accidental or malicious deletion.
 
