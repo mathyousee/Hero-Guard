@@ -20,7 +20,7 @@ This solution is intended for use with the Common Data Service in an environment
 
 ### Installation
 
-The installable **Managed** solution is available under Releases on the GitHub project https://github.com/mathyousee/Hero-Guard/releases and the **Unmanaged** solution is available under the Source folder 
+The installable **Managed** solution is available under Releases on the [GitHub project](https://github.com/mathyousee/Hero-Guard/releases) and the **Unmanaged** solution is available under the [Source folder](/Source).
 
 1) Install the managed solution file in your Dynamics 365 instance
 2) Assign the *Hero Protector* Security Role to any user who will create/remove hero Guards
