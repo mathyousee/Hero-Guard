@@ -24,12 +24,24 @@ The installable **Managed** solution is available under Releases on the [release
 
 1) Install the managed solution file in your Dynamics 365 instance
 2) Assign the *Hero Protector* Security Role to any user who will create/remove hero Guards
-3) Open the Hero Guard model-driven PowerApp from the app selector
+
+#### Update Connections in Flow (optional)
+
+The **When a guard is updated, set its name** Flow is optional, but will automatically generate a name describing the records that are being protected, and set that as a name. In order to use this the Connections in the Flow must be updated in order to function properly.
+
+1) Navigate to [https://make.powerapps.com](https://make.powerapps.com)
+    - In the left navigation, click on **Solutions**, then select the **Hero Guard** solution
+    - Click the ellipse (...) menu next to the *When a guard is updated, set its name* Flow, then click **Edit**
+2) The Flow will open in the maker studio. For each action that requires a connection, there will be a warning icon on the right side of the action. This indicates the need for a connection to be selected.
+    - Some connections will need to be created if there are not available
+    - Some actions might be hidden within other built in actions, such as a condition or scope
+3) Once all actions have a connection, save the Flow
 
 ### Assign a Guard to a record
 
-1) Select **"New Guard**
-2) Assocaite with at least one record and choose **Save**.
+1) Open the Hero Guard model-driven PowerApp from the app selector
+2) Select **"New Guard**
+3) Assocaite with at least one record and choose **Save**.
 
 ### Remove a Guard
 
