@@ -37,11 +37,13 @@ The **When a guard is updated, set its name** Flow is optional, but will automat
     - Some actions might be hidden within other built in actions, such as a condition or scope
 3) Once all actions have a connection, save the Flow
 
-### Assign a Guard to a record
+### Guard a record
 
 1) Open the Hero Guard model-driven PowerApp from the app selector
 2) Select **"New Guard**
 3) Assocaite with at least one record and choose **Save**.
+
+![animated gif of creating and testing a Hero Guard record](Media/HeroGuard-CreateAGuard.gif "Creating and testing a Hero Guard")
 
 ### Remove a Guard
 
